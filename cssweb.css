@@ -1,0 +1,169 @@
+.header{
+  margin: 54px;
+  text-align: center;
+  margin-top: 20px;
+  border: 5px dashed #f7c1ea;
+  background-color:#f5daef ;
+  color: white;
+
+
+  
+
+
+}
+
+ header img, .header div{
+display: inline-block;
+width: 20%;
+height: 20%;
+vertical-align: middle;
+
+    
+ }
+  header img{
+    margin-top: 0%;
+    height: 20%;
+    width: 15%;
+   margin-left: 10%;
+  }
+
+
+body{ background-color: rgb(240, 228, 235);
+   margin: 0px;
+    padding: 0px;
+    margin-top: 0%;
+    font-family:Arial, Helvetica, sans-serif ;
+   
+}
+
+.Education{
+    border: 5px dashed #f7c1ea;
+    padding: 20px;
+    text-align: center;
+    width: 89%;
+    height: 300px;
+    background-color:#f5daef ;
+   
+
+}
+
+.PersonalInfo{
+    height: 300px;
+    grid-column: 2/4;
+    border:5px dashed #f7c1ea ;
+    padding:20px ;
+    text-align: center;
+    background-color:#f5daef ;
+    
+
+}
+
+.experience{
+    height: 300px;
+    border:5px dashed #f7c1ea ;
+    padding:20px ;
+    text-align: center;
+    background-color:#f5daef ;
+}
+.experience li{
+    margin: 10px; ;
+   }
+
+.Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+    padding: 10px;
+    margin: 50px;
+}
+
+
+
+
+.course {
+    margin: 50px;
+    padding: 20px;
+    display: block;
+    border: 5px dashed #f7c1ea;
+    background-color:#f5daef ;
+   }
+
+   .course h3{
+    display: inline;
+   margin-top: 0%;
+   }
+
+ .navBar{
+    text-decoration: underline;
+    display: inline-block;
+  
+   }
+    nav ul li a{
+      
+        display: block;
+        color: black;
+        padding: 20px;
+    }
+
+   .project{
+    margin: 50px;
+    padding: 30px;
+    display:block;
+    border: 5px dashed #f7c1ea;
+    color: black;
+    background-color:#f5daef ;
+   }
+   .project a{
+    color: black;
+   }
+   
+   .Contac {
+    margin: 50px;
+    padding: 20px;
+    display:block;
+    border: 5px dashed #f7c1ea;
+    background-color:#f5daef ;
+   
+ 
+   
+   }
+   .Contac img {
+    width: 30px;
+    height: 25px;
+   }
+
+main h3{
+    
+    display: inline;
+   
+}
+
+footer h3{
+ 
+    display: inline;
+}
+.link {
+    margin-top: 0px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    background-color: #f7c1ea;
+  
+ 
+ 
+}
+
+.link a{
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    color:black;
+    word-spacing:10px ;
+    margin-top: 0px;
+ 
+    
+}
+.link div a:hover{
+    background-color: white;
+ 
+}
